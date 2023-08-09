@@ -1,0 +1,43 @@
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.breadcrumb{
+    background-color: red;
+    border-radius: 0;
+}
+
+a, a:hover{
+    background-color: yellow;
+}
+
+table{
+    margin: 100px 10px;
+    color: #68829E;
+}
+thead{
+    background-color: #68829E;
+    color: white;
+    cursor: pointer;
+}
+tbody{
+    display: block;
+    height: 300px;
+    overflow-y: scroll;
+}
+thead, tbody tr{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: purple;
+    color: white;
+}
